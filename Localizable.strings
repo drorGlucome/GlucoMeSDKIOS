@@ -1,0 +1,248 @@
+/* 
+  Localizable.strings
+  GlucoMe - Mobile
+
+  Created by Yiftah Ben Aharon on 9/9/14.
+  Copyright (c) 2014 Yiftah Ben Aharon. All rights reserved.
+*/
+
+/* Measure Screen */
+"Welcome" = "שלום";
+"Waiting for measurement" = "ממתין למדידה";
+
+"Waiting for a Measurement..." = "ממתין לביצוע מדידה במכשיר...";
+"Last Result" = "התוצאה האחרונה";
+"Last Measurement" = "מדידה אחרונה";
+"Last Injection" = "הזרקה אחרונה";
+"Last Medicine" = "תרופה אחרונה";
+"Last Weight" = "משקל אחרון";
+"Last Activity" = "פעילות אחרונה";
+"Last Meal" = "ארוחה אחרונה";
+"Tag your result" = "תייגו את התוצאה";
+"Tap to Start" = "התחל";
+"Tap to Stop" = "הפסק";
+"Error" = "שגיאה";
+"Battery level is low. Please replace battery" = "הסוללה חלשה, אנא החליפו אותה בהקדם";
+"Warning" = "אזהרה";
+"OK" = "אישור";
+"Measure" = "מדידה";
+"A new GlucoMe device was found. Would you like to register it ?" = "מכשיר חדש זוהה. האם ברצונך להשתמש בו ?";
+/* Protocol Errors */
+
+"General Error" = "שגיאה כללית";
+"General error. The meter is too hot or cold." = "הטמפרטורה מחוץ לטווח התקין";
+"Used test strip was inserted into the test port." = "נעשה שימוש בסטריפ משומש";
+"Test strip is damaged or was removed too soon." = "ישנה בעיה עם הסטריפ. הוא פגום או שהוא הוצא בזמן הבדיקה";
+"The sample was improperly applied or there was electronic interference during the test." = "טיפת הדם הונחה בצורה שגויה או שהייתה הפרעה חשמלית בזמן הבדיקה";
+"Internal error – cannot read test strip." = "ישנה בעיה אלקטרונית במכשיר";
+"Inserted blood is less than standard." = "הבדיקה מכילה מעט מדי דם";
+"Blood was applied to the wrong part of the test strip." = "הדם הונח בכיוון הלא נכון על סטריפ הבדיקה";
+"Blood was not applied on the test strip." = "לא הוכנסה טיפת דם לסטריפ הבדיקה";
+
+/* Me screen */
+"Last Result" = "תוצאה אחרונה";
+"mg/dl" = "mg/dl";
+"mmol/L" = "mmol/L";
+"Units" = "יחידות";
+"%@ at %@" = "%@ בשעה %@";
+"Your GlucoMe score" = "ציונכם המשוקלל";
+"Click to see why" = "לחצו בכדי לראות למה";
+"Last week" = "בשבוע האחרון";
+"Glucose trend" = "מגמת רמת הסוכר";
+"You have" = "ברשותכם נותרו כ";
+"Test strips left" = "סטריפים";
+"Glucose distribution" = "התפלגות רמת הסוכר";
+"There are" = "ישנן";
+"Reminders set" = "תזכורות פעילות";
+"You share data with" = "אתם משתפים בתוצאות";
+"Persons" = "אנשים";
+"You have" = "יש לך";
+"Alerts set" = "התראות";
+"Did you know?" = "האם ידעתם ?";
+"Results" = "תוצאות";
+"Estimated HbA1c" = "הערכת HbA1c";
+
+/* Profile screen */
+"Profile" = "הגדרות";
+"Are you sure?" = "האם אתה בטוח?";
+
+/* History Log */
+"History" = "תוצאות";
+"Date" = "תאריך";
+"Result" = "תוצאה";
+"Value" = "ערך";
+"Units" = "יחידות";
+"Tag" = "תגית";
+"Close" = "סגור";
+"Add" = "הוסף";
+"Back" = "חזרה";
+"Save" = "שמירה";
+"Export" = "יצוא";
+
+/* Detailed history log */
+"Glucose Level" = "רמת הסוכר בדם";
+"Time" = "זמן";
+"Cancel" = "ביטול";
+"Done" = "אישור";
+"Update" = "אישור";
+"Yes" = "כן";
+"No" = "לא";
+
+/* History / Pie Chart */
+"Trends" = "מגמת רמת הסוכר בדם";
+"Filter by tags" = "סינון לפי תגיות";
+"No data available" = "אין מידע זמין";
+"Glucose Distribution" = "התפלגות הסוכר בדם";
+
+/* Reminders */
+"Reminders" = "תזכורות";
+"Reminder" = "תזכורת";
+"Name" = "שם";
+"Type" = "סוג";
+"Repeat" = "חוזר";
+"Timer" = "שעון";
+"Daily" = "יומי";
+"Recurring" = "חוזר";
+"Recurring daily" = "יומי";
+"One time" = "חד פעמי";
+"e.g Morning reminder" = "לדוגמא: תזכורת בוקר";
+/*"TableRowReminderViewController" = "TableRowReminderViewController";
+"AddReminderViewController" = "AddReminderViewControllerHeb";*/
+
+/* Alerts */
+"Data Sharing" = "שיתוף מידע";
+"Who" = "מי";
+"How" = "איך";
+"When" = "מתי";
+"AddAlertViewController" = "AddAlertViewControllerHeb";
+
+/*Facts*/
+"Facts" = "עובדות";
+
+/* Tags */
+"Before breakfast" = "לפני ארוחת בוקר";
+"After breakfast" = "אחרי ארוחת בוקר";
+"Before lunch" = "לפני ארוחת צהריים";
+"After lunch" = "אחרי ארוחת צהריים";
+"Before dinner" = "לפני ארוחת ערב";
+"After dinner" = "אחרי ארוחת ערב";
+"Before snack" = "לפני חטיף";
+"After snack" = "אחרי חטיף";
+"Bedtime" = "לפני שינה";
+"Midnight" = "אמצע הלילה";
+"Not tagged" = "ללא תיוג";
+
+"Breakfast" = "ארוחת בוקר";
+"Lunch" = "ארוחת צהריים";
+"Dinner" = "ארוחת ערב";
+"Night" = "לילה";
+"Snack" = "חטיף";
+
+"Basal" = "בזאלי";
+"Bolus morning" = "בולוס בוקר";
+"Bolus noon" = "בולוס צהריים";
+"Bolus evening" = "בולוס ערב";
+"Pills" = "כדורים";
+
+"Scroll to now" = "בחר את עכשיו";
+"Select" = "בחר";
+
+"Notes" = "הערות";
+"Tag your result" = "תיוג התוצאה";
+"add some notes..." = "הוסף הערות...";
+"Enter note" = "הכנס הערה";
+
+"Before" = "לפני";
+"After" = "אחרי";
+"Breakfast" = "בוקר";
+"Lunch" = "צהרים";
+"Dinner" = "ערב";
+"Feel" = "מרגיש";
+"Well" = "טוב";
+"Bad" = "רע";
+"Add new tag..." = "הוספת תגית חדשה ...";
+"Select none" = "בטל בחירה";
+"Select all" = "בחר הכל";
+"New tag" = "תגית חדשה";
+"Plase enter new tag name" = "אנא הקלידו תגית חדשה";
+
+/* Score */
+"FullScoreViewController" = "FullScoreViewControllerHeb";
+
+/* Strips */
+"FullStripsViewController" = "FullStripsViewControllerHeb";
+"Unfortunatly, this feature is not supported in your country" = "שירות זה עדיין אינו נתמך במדינתכם";
+"Sorry..." = "מצטערים...";
+"Rest strips" = "עדכון כמות סטריפים";
+"Please enter updated strips count" = "אנא הזינו את כמות הסטריפים שברשותכם";
+
+/* General */
+"Today" = "היום";
+"Yesterday" = "אתמול";
+
+/* Pie Charts */
+"Very Low" = "נמוך מאוד";
+"Low" = "נמוך";
+"Normal" = "תקין";
+"High" = "גבוה";
+"Very High" = "גבוה מאוד";
+
+
+/* Profile */
+"Logout" = "ניתוק";
+"Personal Profile" = "הגדרות";
+"Personal" = "הגדרות";
+"Email" = "דוא״ל";
+"First Name" = "שם פרטי";
+"Last Name" = "שם משפחה";
+"Diabetes Type" = "סוג סוכרת";
+"Height" = "גובה";
+"Weight" = "משקל";
+"Lower Limit" = "גבול תחתון";
+"Upper Limit" = "גבול עליון";
+"Daily Measurements" = "מדידות ביום";
+
+"Glucose" = "גלוקוז";
+"Medicine" = "תרופות";
+"Food" = "אוכל";
+"Activity" = "פעילות";
+
+"Please enter the glucose value" = "הכנס ערך גלוקוז";
+"Please enter the amount of medicine" = "הכנס כמות תרופות";
+"Please estimate the amount of food" = "הכנס כמות אוכל";
+"Please estimate the amount of activity" = "הכנס כמות פעילות";
+"Please enter your weight" = "הזן את משקלך";
+"Manual input" = "הכנסה ידנית";
+
+
+/*tutorial*/
+"Place a blood drop onto the strip" = "הנח טיפת דם על הסטריפ";
+
+/*friends*/
+"Please enter your friend's Email" = "הכנס אימייל של חבר";
+"Add a follower" = "הוספת עוקב";
+"Filter" = "פילטור";
+"Out of %d friends" = "מתוך %d חברים";
+
+
+
+"Small meal" = "ארוחה קלה";
+"Medium meal" = "ארוחה בינונית";
+"Large meal" = "ארוחה גדולה";
+"Easy physical activity" = "פעילות גופנית קלה";
+"Medium physical activity" = "פעילות גופנית בינונית";
+"Hard physical activity" = "פעילות גופנית מאומצת";
+
+"Invalid phone number" = "מספר טלפון לא תקין";
+"Invalid email" = "אמייל לא תקין";
+
+"Next treatment" = "פעולה קרובה";
+"Treatment plan" = "תוכנית טיפול";
+"morning" = "בוקר";
+"Morning" = "בוקר";
+"noon" = "צהריים";
+"Noon" = "צהריים";
+"evening" = "ערב";
+"Evening" = "ערב";
+"night" = "לילה";
+"Night" = "לילה";

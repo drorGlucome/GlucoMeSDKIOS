@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911279EA1ECF1F4500BAF3A5 /* GlucoMeSDKUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A9BEB01ECC8A380005792B /* GlucoMeSDKUI.m */; };
+		911279F01ED0675F00BAF3A5 /* HelpDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910C68331ECE543A00A59DBC /* HelpDialogView.m */; };
+		911279F11ED0676300BAF3A5 /* HelpDialogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910C68361ECE544B00A59DBC /* HelpDialogManager.m */; };
+		911279FF1ED093AA00BAF3A5 /* HelpDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910C68301ECE542200A59DBC /* HelpDialogView.xib */; };
+		91127D6E1ED161F800BAF3A5 /* IntroGenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D6A1ED161DF00BAF3A5 /* IntroGenericViewController.m */; };
+		91127D6F1ED161FE00BAF3A5 /* IntroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D681ED161DF00BAF3A5 /* IntroPageViewController.m */; };
+		91127D701ED1620400BAF3A5 /* IntroContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D661ED161DF00BAF3A5 /* IntroContainerViewController.m */; };
+		91127D741ED162B000BAF3A5 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D711ED162A600BAF3A5 /* UIImage+animatedGIF.m */; };
+		91127D7D1ED1B08800BAF3A5 /* IntroStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91127D7B1ED1AD3F00BAF3A5 /* IntroStoryboard.storyboard */; };
+		91127D8C1ED2FDD000BAF3A5 /* MeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D841ED2FA4E00BAF3A5 /* MeasureViewController.m */; };
+		91127D9F1ED30BEA00BAF3A5 /* TagsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91127D9D1ED30BEA00BAF3A5 /* TagsView.xib */; };
+		91127DA01ED30BF400BAF3A5 /* TagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D9C1ED30BEA00BAF3A5 /* TagsView.m */; };
+		91127DA41ED3118A00BAF3A5 /* SingleMeasurementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91127D921ED3000700BAF3A5 /* SingleMeasurementViewController.m */; };
+		91127DAD1ED317F900BAF3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91127DAC1ED317F900BAF3A5 /* Foundation.framework */; };
+		91127DAF1ED3183D00BAF3A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91127DAE1ED3183D00BAF3A5 /* UIKit.framework */; };
+		91170B1D1ED57F4C00925F24 /* libGlucomeAudioSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91170B1C1ED57F4C00925F24 /* libGlucomeAudioSDK.a */; };
+		91170B261ED737A100925F24 /* GlucoMeSDK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91170B251ED737A100925F24 /* GlucoMeSDK.storyboard */; };
+		91237CBA1EDAB2C70065DCE3 /* general.m in Sources */ = {isa = PBXBuildFile; fileRef = 91237CB91EDAB2C70065DCE3 /* general.m */; };
+		9141C0BB1ECD683200BC4955 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9141C0BA1ECD667D00BC4955 /* opencv2.framework */; };
+		9141C0BF1ECD686A00BC4955 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9141C0BE1ECD686A00BC4955 /* AVFoundation.framework */; };
+		9141C0C11ECD687900BC4955 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9141C0C01ECD687900BC4955 /* Accelerate.framework */; };
+		9141C0C31ECD688900BC4955 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9141C0C21ECD688900BC4955 /* AudioToolbox.framework */; };
+		9141C0C51ECD689900BC4955 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9141C0C41ECD689900BC4955 /* CoreAudio.framework */; };
+		91BC5A591EDC39EF0017145D /* GlucoMeSDKUI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91BC5A571EDC378C0017145D /* GlucoMeSDKUI.h */; };
+		91E4D1591ECD9B4B00C20C97 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E4D14E1ECD9B1A00C20C97 /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91A9BEAA1ECC8A380005792B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				91BC5A591EDC39EF0017145D /* GlucoMeSDKUI.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		910C68301ECE542200A59DBC /* HelpDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpDialogView.xib; sourceTree = "<group>"; };
+		910C68321ECE543100A59DBC /* HelpDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpDialogView.h; sourceTree = "<group>"; };
+		910C68331ECE543A00A59DBC /* HelpDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDialogView.m; sourceTree = "<group>"; };
+		910C68351ECE544500A59DBC /* HelpDialogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpDialogManager.h; sourceTree = "<group>"; };
+		910C68361ECE544B00A59DBC /* HelpDialogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpDialogManager.m; sourceTree = "<group>"; };
+		91127D651ED161DF00BAF3A5 /* IntroContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroContainerViewController.h; sourceTree = "<group>"; };
+		91127D661ED161DF00BAF3A5 /* IntroContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroContainerViewController.m; sourceTree = "<group>"; };
+		91127D671ED161DF00BAF3A5 /* IntroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroPageViewController.h; sourceTree = "<group>"; };
+		91127D681ED161DF00BAF3A5 /* IntroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroPageViewController.m; sourceTree = "<group>"; };
+		91127D691ED161DF00BAF3A5 /* IntroGenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroGenericViewController.h; sourceTree = "<group>"; };
+		91127D6A1ED161DF00BAF3A5 /* IntroGenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroGenericViewController.m; sourceTree = "<group>"; };
+		91127D711ED162A600BAF3A5 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		91127D731ED162AC00BAF3A5 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		91127D7B1ED1AD3F00BAF3A5 /* IntroStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IntroStoryboard.storyboard; sourceTree = "<group>"; };
+		91127D831ED2FA4E00BAF3A5 /* MeasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasureViewController.h; sourceTree = "<group>"; };
+		91127D841ED2FA4E00BAF3A5 /* MeasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasureViewController.m; sourceTree = "<group>"; };
+		91127D911ED3000700BAF3A5 /* SingleMeasurementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleMeasurementViewController.h; sourceTree = "<group>"; };
+		91127D921ED3000700BAF3A5 /* SingleMeasurementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleMeasurementViewController.m; sourceTree = "<group>"; };
+		91127D9B1ED30BEA00BAF3A5 /* TagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsView.h; sourceTree = "<group>"; };
+		91127D9C1ED30BEA00BAF3A5 /* TagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsView.m; sourceTree = "<group>"; };
+		91127D9D1ED30BEA00BAF3A5 /* TagsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsView.xib; sourceTree = "<group>"; };
+		91127DAC1ED317F900BAF3A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91127DAE1ED3183D00BAF3A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91170B1B1ED57EB300925F24 /* GlucoMeAudioSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlucoMeAudioSDK.h; sourceTree = "<group>"; };
+		91170B1C1ED57F4C00925F24 /* libGlucomeAudioSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGlucomeAudioSDK.a; sourceTree = "<group>"; };
+		91170B251ED737A100925F24 /* GlucoMeSDK.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GlucoMeSDK.storyboard; sourceTree = "<group>"; };
+		91237CB81EDAAF5A0065DCE3 /* general.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
+		91237CB91EDAB2C70065DCE3 /* general.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = general.m; sourceTree = "<group>"; };
+		9141C0BA1ECD667D00BC4955 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		9141C0BE1ECD686A00BC4955 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9141C0C01ECD687900BC4955 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9141C0C21ECD688900BC4955 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9141C0C41ECD689900BC4955 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		91A9BEAC1ECC8A380005792B /* libGlucoMeSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGlucoMeSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A9BEB01ECC8A380005792B /* GlucoMeSDKUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlucoMeSDKUI.m; sourceTree = "<group>"; };
+		91BC5A571EDC378C0017145D /* GlucoMeSDKUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlucoMeSDKUI.h; path = ../bundle/GlucoMeSDKUI.h; sourceTree = "<group>"; };
+		91E4D14D1ECD9B1A00C20C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E4D14E1ECD9B1A00C20C97 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		91E4D1531ECD9B4200C20C97 /* GlucoMe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlucoMe.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E4D1551ECD9B4200C20C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A9BEA91ECC8A380005792B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91127DAF1ED3183D00BAF3A5 /* UIKit.framework in Frameworks */,
+				91127DAD1ED317F900BAF3A5 /* Foundation.framework in Frameworks */,
+				91170B1D1ED57F4C00925F24 /* libGlucomeAudioSDK.a in Frameworks */,
+				9141C0C51ECD689900BC4955 /* CoreAudio.framework in Frameworks */,
+				9141C0C31ECD688900BC4955 /* AudioToolbox.framework in Frameworks */,
+				9141C0C11ECD687900BC4955 /* Accelerate.framework in Frameworks */,
+				9141C0BF1ECD686A00BC4955 /* AVFoundation.framework in Frameworks */,
+				9141C0BB1ECD683200BC4955 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E4D1501ECD9B4200C20C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910C64D51ECE537E00A59DBC /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				910C682F1ECE53F300A59DBC /* HelpDialog */,
+			);
+			name = Dialog;
+			sourceTree = "<group>";
+		};
+		910C682F1ECE53F300A59DBC /* HelpDialog */ = {
+			isa = PBXGroup;
+			children = (
+				910C68301ECE542200A59DBC /* HelpDialogView.xib */,
+				910C68321ECE543100A59DBC /* HelpDialogView.h */,
+				910C68351ECE544500A59DBC /* HelpDialogManager.h */,
+				910C68331ECE543A00A59DBC /* HelpDialogView.m */,
+				910C68361ECE544B00A59DBC /* HelpDialogManager.m */,
+			);
+			name = HelpDialog;
+			sourceTree = "<group>";
+		};
+		91127D641ED161BC00BAF3A5 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				91127D651ED161DF00BAF3A5 /* IntroContainerViewController.h */,
+				91127D661ED161DF00BAF3A5 /* IntroContainerViewController.m */,
+				91127D671ED161DF00BAF3A5 /* IntroPageViewController.h */,
+				91127D681ED161DF00BAF3A5 /* IntroPageViewController.m */,
+				91127D691ED161DF00BAF3A5 /* IntroGenericViewController.h */,
+				91127D6A1ED161DF00BAF3A5 /* IntroGenericViewController.m */,
+				91127D711ED162A600BAF3A5 /* UIImage+animatedGIF.m */,
+				91127D731ED162AC00BAF3A5 /* UIImage+animatedGIF.h */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		91127D801ED2EF7100BAF3A5 /* Measure */ = {
+			isa = PBXGroup;
+			children = (
+				91127D831ED2FA4E00BAF3A5 /* MeasureViewController.h */,
+				91127D841ED2FA4E00BAF3A5 /* MeasureViewController.m */,
+				91127D911ED3000700BAF3A5 /* SingleMeasurementViewController.h */,
+				91127D921ED3000700BAF3A5 /* SingleMeasurementViewController.m */,
+				91127D9B1ED30BEA00BAF3A5 /* TagsView.h */,
+				91127D9C1ED30BEA00BAF3A5 /* TagsView.m */,
+				91237CB81EDAAF5A0065DCE3 /* general.h */,
+				91237CB91EDAB2C70065DCE3 /* general.m */,
+				91127D9D1ED30BEA00BAF3A5 /* TagsView.xib */,
+				91170B251ED737A100925F24 /* GlucoMeSDK.storyboard */,
+			);
+			name = Measure;
+			sourceTree = "<group>";
+		};
+		9141C0B71ECD667D00BC4955 /* GlucoMeAudioSDK */ = {
+			isa = PBXGroup;
+			children = (
+				91170B1C1ED57F4C00925F24 /* libGlucomeAudioSDK.a */,
+				91170B1B1ED57EB300925F24 /* GlucoMeAudioSDK.h */,
+				9141C0BA1ECD667D00BC4955 /* opencv2.framework */,
+			);
+			path = GlucoMeAudioSDK;
+			sourceTree = "<group>";
+		};
+		9141C0BD1ECD686A00BC4955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91127DAE1ED3183D00BAF3A5 /* UIKit.framework */,
+				91127DAC1ED317F900BAF3A5 /* Foundation.framework */,
+				9141C0C41ECD689900BC4955 /* CoreAudio.framework */,
+				9141C0C21ECD688900BC4955 /* AudioToolbox.framework */,
+				9141C0C01ECD687900BC4955 /* Accelerate.framework */,
+				9141C0BE1ECD686A00BC4955 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91A9BEA31ECC8A380005792B = {
+			isa = PBXGroup;
+			children = (
+				91127D801ED2EF7100BAF3A5 /* Measure */,
+				91127D641ED161BC00BAF3A5 /* Intro */,
+				910C64D51ECE537E00A59DBC /* Dialog */,
+				91E4D14B1ECD9B1A00C20C97 /* bundle */,
+				91A9BEAE1ECC8A380005792B /* GlucoMeSDK */,
+				91E4D1541ECD9B4200C20C97 /* GlucoMe */,
+				91A9BEAD1ECC8A380005792B /* Products */,
+				9141C0B71ECD667D00BC4955 /* GlucoMeAudioSDK */,
+				9141C0BD1ECD686A00BC4955 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91A9BEAD1ECC8A380005792B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A9BEAC1ECC8A380005792B /* libGlucoMeSDK.a */,
+				91E4D1531ECD9B4200C20C97 /* GlucoMe.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A9BEAE1ECC8A380005792B /* GlucoMeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				91BC5A571EDC378C0017145D /* GlucoMeSDKUI.h */,
+				91A9BEB01ECC8A380005792B /* GlucoMeSDKUI.m */,
+			);
+			path = GlucoMeSDK;
+			sourceTree = "<group>";
+		};
+		91E4D14B1ECD9B1A00C20C97 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				91E4D14D1ECD9B1A00C20C97 /* Info.plist */,
+				91127D7B1ED1AD3F00BAF3A5 /* IntroStoryboard.storyboard */,
+				91E4D14E1ECD9B1A00C20C97 /* Media.xcassets */,
+			);
+			path = bundle;
+			sourceTree = "<group>";
+		};
+		91E4D1541ECD9B4200C20C97 /* GlucoMe */ = {
+			isa = PBXGroup;
+			children = (
+				91E4D1551ECD9B4200C20C97 /* Info.plist */,
+			);
+			path = GlucoMe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A9BEAB1ECC8A380005792B /* GlucoMeSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A9BEB51ECC8A380005792B /* Build configuration list for PBXNativeTarget "GlucoMeSDK" */;
+			buildPhases = (
+				91A9BEA81ECC8A380005792B /* Sources */,
+				91A9BEA91ECC8A380005792B /* Frameworks */,
+				91A9BEAA1ECC8A380005792B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucoMeSDK;
+			productName = GlucoMeSDK;
+			productReference = 91A9BEAC1ECC8A380005792B /* libGlucoMeSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		91E4D1521ECD9B4200C20C97 /* GlucoMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E4D1561ECD9B4200C20C97 /* Build configuration list for PBXNativeTarget "GlucoMe" */;
+			buildPhases = (
+				91E4D14F1ECD9B4200C20C97 /* Sources */,
+				91E4D1501ECD9B4200C20C97 /* Frameworks */,
+				91E4D1511ECD9B4200C20C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlucoMe;
+			productName = GlucoMe;
+			productReference = 91E4D1531ECD9B4200C20C97 /* GlucoMe.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A9BEA41ECC8A380005792B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "דרור זוהר";
+				TargetAttributes = {
+					91A9BEAB1ECC8A380005792B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N4JLL5S4U8;
+						ProvisioningStyle = Automatic;
+					};
+					91E4D1521ECD9B4200C20C97 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = N4JLL5S4U8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91A9BEA71ECC8A380005792B /* Build configuration list for PBXProject "GlucoMeSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = 91A9BEA31ECC8A380005792B;
+			productRefGroup = 91A9BEAD1ECC8A380005792B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A9BEAB1ECC8A380005792B /* GlucoMeSDK */,
+				91E4D1521ECD9B4200C20C97 /* GlucoMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E4D1511ECD9B4200C20C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911279FF1ED093AA00BAF3A5 /* HelpDialogView.xib in Resources */,
+				91127D9F1ED30BEA00BAF3A5 /* TagsView.xib in Resources */,
+				91127D7D1ED1B08800BAF3A5 /* IntroStoryboard.storyboard in Resources */,
+				91170B261ED737A100925F24 /* GlucoMeSDK.storyboard in Resources */,
+				91E4D1591ECD9B4B00C20C97 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A9BEA81ECC8A380005792B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91127D701ED1620400BAF3A5 /* IntroContainerViewController.m in Sources */,
+				91127D8C1ED2FDD000BAF3A5 /* MeasureViewController.m in Sources */,
+				91127D6E1ED161F800BAF3A5 /* IntroGenericViewController.m in Sources */,
+				91127DA01ED30BF400BAF3A5 /* TagsView.m in Sources */,
+				911279F01ED0675F00BAF3A5 /* HelpDialogView.m in Sources */,
+				91237CBA1EDAB2C70065DCE3 /* general.m in Sources */,
+				91127D6F1ED161FE00BAF3A5 /* IntroPageViewController.m in Sources */,
+				91127D741ED162B000BAF3A5 /* UIImage+animatedGIF.m in Sources */,
+				91127DA41ED3118A00BAF3A5 /* SingleMeasurementViewController.m in Sources */,
+				911279F11ED0676300BAF3A5 /* HelpDialogManager.m in Sources */,
+				911279EA1ECF1F4500BAF3A5 /* GlucoMeSDKUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E4D14F1ECD9B4200C20C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91A9BEB31ECC8A380005792B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"($inherited)",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91A9BEB41ECC8A380005792B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"($inherited)",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A9BEB61ECC8A380005792B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N4JLL5S4U8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GlucoMeAudioSDK",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/GlucoMeAudioSDK\"/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GlucoMeAudioSDK",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/GlucoMeAudioSDK\"/**";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "($inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		91A9BEB71ECC8A380005792B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N4JLL5S4U8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GlucoMeAudioSDK",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/GlucoMeAudioSDK\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GlucoMeAudioSDK",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/GlucoMeSDK-gvffoskeloxgmtgcqxmsubdjxtcu/Build/Products/Release-iphoneos/\"",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/GlucoMeAudioSDK\"/**";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "($inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		91E4D1571ECD9B4200C20C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4JLL5S4U8;
+				INFOPLIST_FILE = GlucoMe/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GlucoMeMobile",
+					"$(PROJECT_DIR)/GlucoMeAudioSDK",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = dz.GlucoMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		91E4D1581ECD9B4200C20C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N4JLL5S4U8;
+				INFOPLIST_FILE = GlucoMe/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GlucoMeMobile",
+					"$(PROJECT_DIR)/GlucoMeAudioSDK",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = dz.GlucoMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A9BEA71ECC8A380005792B /* Build configuration list for PBXProject "GlucoMeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A9BEB31ECC8A380005792B /* Debug */,
+				91A9BEB41ECC8A380005792B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A9BEB51ECC8A380005792B /* Build configuration list for PBXNativeTarget "GlucoMeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A9BEB61ECC8A380005792B /* Debug */,
+				91A9BEB71ECC8A380005792B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E4D1561ECD9B4200C20C97 /* Build configuration list for PBXNativeTarget "GlucoMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E4D1571ECD9B4200C20C97 /* Debug */,
+				91E4D1581ECD9B4200C20C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A9BEA41ECC8A380005792B /* Project object */;
+}
