@@ -204,7 +204,7 @@ error:(int)error battery:(int)battery glucose:(int)glucose
 }
 
 -(NSString*)showSDKVersion {
-    NSString* version = [NSString stringWithFormat:@"%s/%@", "SDKVersion: 1.3.0 ", [glucoMeAudioSDK SDKVersion]];
+    NSString* version = [NSString stringWithFormat:@"%s/%@", "SDKVersion: 3.3.5 ", [glucoMeAudioSDK SDKVersion]];
     
     return version;
 }
